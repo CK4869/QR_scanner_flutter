@@ -16,7 +16,7 @@ jobs:
           channel: 'stable'
 
       - name: Set environment variables
-        uses: jvandemo/github-action-dotenv@v2.0.0
+        uses: ./.github/actions/dotenv-action
         with:
           env_file: .env
 
